@@ -48,7 +48,7 @@ ${\textbf{ P}}(X_i{{\,|\,}}{Parents}(X_i))$ from this definition.
     writing out explicitly the terms for the true and false values of
     each summed variable. Assuming that all network parameters satisfy
     the constraint
-    $\sum_{x_i} \theta(x_i{{\,|\,}}{parents}(X_i)){{\,{=}\,}}1$, show
+    $\sum_{x_i} \theta(x_i{{\,|\,}}{parents}(X_i)){{\,=\,}}1$, show
     that the resulting expression reduces to $\theta(z{{\,|\,}}y)$.
 
 4.  Generalize this derivation to show that

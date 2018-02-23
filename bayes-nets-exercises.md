@@ -253,7 +253,7 @@ Figure [telescope-nets-figure](#telescope-nets-figure).
 
 3.  Write out a conditional distribution for
     ${\textbf{P}}(M_1{{\,|\,}}N)$, for the case where
-    $N{{\,\in\,}}\{1,2,3\}$ and $M_1{{\,\in\,}}\{0,1,2,3,4\}$. Each
+    $N{{\,\in\\,}}\{1,2,3\}$ and $M_1{{\,\in\\,}}\{0,1,2,3,4\}$. Each
     entry in the conditional distribution should be expressed as a
     function of the parameters $e$ and/or $f$.
 
@@ -268,8 +268,8 @@ Figure [telescope-nets-figure](#telescope-nets-figure).
 
 **14.15** Consider the network shown in
 Figure [telescope-nets-figure](#telescope-nets-figure)(ii), and assume that the
-two telescopes work identically. $N{{\,{\in}\,}}\{1,2,3\}$ and
-$M_1,M_2{{\,{\in}\,}}\{0,1,2,3,4\}$, with the symbolic CPTs as described
+two telescopes work identically. $N{{\,\in\\,}}\{1,2,3\}$ and
+$M_1,M_2{{\,\in\\,}}\{0,1,2,3,4\}$, with the symbolic CPTs as described
 in Exercise [telescope-exercise](#/). Using the enumeration
 algorithm (Figure [enumeration-algorithm](#/) on
 page [enumeration-algorithm](#/)), calculate the probability distribution
@@ -387,8 +387,8 @@ uniformly distributed between 0 and 1.
 
 1.  Let $X$ be a discrete variable with
     $P(X{{\,=\,}}x_i){{\,=\,}}p_i$ for
-    $i{{\,{\in}\,}}\{1,\ldots,k\}$. The **cumulative distribution** of $X$ gives the probability
-    that $X{{\,{\in}\,}}\{x_1,\ldots,x_j\}$ for each possible $j$. (See
+    $i{{\,\in\\,}}\{1,\ldots,k\}$. The **cumulative distribution** of $X$ gives the probability
+    that $X{{\,\in\\,}}\{x_1,\ldots,x_j\}$ for each possible $j$. (See
     also Appendix [math-appendix].) Explain how to
     calculate the cumulative distribution in $O(k)$ time and how to
     generate a single sample of $X$ from it. Can the latter be done in

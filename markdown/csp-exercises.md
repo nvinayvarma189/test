@@ -133,12 +133,12 @@ you can manage. Comment on your results.
 
 **6.11** Use the AC-3 algorithm to show that arc consistency can detect the
 inconsistency of the partial assignment
-$\{{WA}{{\,=\,}}{green},V{{\,=\,}}{red}\}$ for the problem
+$\{{WA}}{{\,=\,}}{green},V{{\,=\,}}{red}\}$ for the problem
 shown in Figure [australia-figure](#/).
 
 **6.12** Use the AC-3 algorithm to show that arc consistency can detect the
 inconsistency of the partial assignment
-$\{{WA}{{\,=\,}}{red},V{{\,=\,}}{blue}\}$ for the problem
+$\{{WA}}{{\,=\,}}{red},V{{\,=\,}}{blue}\}$ for the problem
 shown in Figure [australia-figure](#/).
 
 **6.13** What is the worst-case complexity of running AC-3 on a tree-structured

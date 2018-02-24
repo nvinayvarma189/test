@@ -294,7 +294,7 @@ your sentence follow from the Peano axioms? If so, explain why; if not,
 give a model in which the axioms are true and your sentence is false.
 
 **8.19** Explain what is wrong with the following proposed definition of the set
-membership predicate ${{\,{\in}\,}}$
+membership predicate ${{\,\in\,}}$
 
 $$
 {\forall\,x,s\;\;} x \in \{x|s\}

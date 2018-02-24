@@ -381,7 +381,7 @@ information* in Section [VPI-section](#/).
 3.  A function $f$ on sets is **submodular** if, for any element $x$ and any sets $A$
     and $B$ such that $A\subseteq B$, adding $x$ to $A$ gives a greater
     increase in $f$ than adding $x$ to $B$:
-    $$A\subseteq B {\:\;{\Rightarrow}\:\;}(f(A{{\,{\cup}\,}}\{x\}) - f(A)) \geq (f(B{{\,{\cup}\,}}\{x\}) - f(B))\ .$$
+    $$A\subseteq B {\:\;{\Rightarrow}\:\;}(f(A{{\,{\cup}}\,}}\{x\}) - f(A)) \geq (f(B{{\,{\cup}}\,}}\{x\}) - f(B))\ .$$
     Submodularity captures the intuitive notion of *diminishing
     returns*. Is the value of information, viewed as a function
     $f$ on sets of possible observations, submodular? Prove this or find

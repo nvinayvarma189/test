@@ -119,3 +119,38 @@ Trace the A*Search algorithm using the Total Manhattan Distance heuristic, to fi
 ![image](https://github.com/nvinayvarma189/test/blob/master/images/8queens.jpg)
 
 Note: The algorithm begins by exploring the left branch which, according to the heuristic, seems the most promising. After a few steps the heuristic for the left branch starts to exceed that of middle branch, so exploration shifts to the middle branch, where the optimal solution is ultimately found.
+
+## Question
+
+**5.9 (3rd edn)**
+
+This problem exercises the basic concepts of game playing, using tic-tac-toe (naughts and crosses) as an example. We define Xn as the number of rows, columns or diagonals with exactly n X's and no O's. Similarly, On is the number of rows, columns or diagonals with just n O's. The utility function assigns +10 to any position with X3>=1 and -10 to any position with O3>=1. All other terminal positions have utility 0. For the nonterminal positions, we use a linear evaluation function defined as Eval(s) = 3X2(s) + X1(s) - (3O2(s) + O1(s))
+
+**(a)**
+Approximately how many possible games of tic-tac-toe are there?
+
+### Answer
+
+There are 9 choices for the 1st move, 8 for the 2nd move, 7 for the 3rd move, etc., giving us an upper bound of 9! = 9*8*7*6*5*4*3*2*1 = 362880. But this is an overestimate, because some games end in 5, 6, 7 or 8 moves. The true figure is actually 255168.
+
+If we take symmetry into account, the number reduces substantially. For example, there are now only 3 choices for the first move and at most 5 choices for the second move. In fact, the total is reduced to 26830 distinct games, of which 172 end in 5 moves, 579 end in 6 moves, 5115 end in 7 moves, 7426 end in 8 moves, 8670 result in a win in 9 moves and 4868 result in a draw. There are a number of Web sites providing a full analysis. See for example [here](http://www.se16.info/hgb/tictactoe.htm)
+
+**(b)**
+
+Show the whole game tree starting from an empty board down to depth 2 (i.e. one X and one O on the board), taking symmetry into account.
+
+**(c)**
+
+Mark on your tree the evaluations of all the positions at depth 2.
+
+**(d)**
+
+Using the minimax algorithm, mark on your tree the backed-up values for the positions at depths 1 and 0, and use those values to choose the best starting move.
+
+**(e)**
+
+Circle the nodes at depth 2 that would not be evaluated if alpha-beta pruning were applied, assuming the nodes are generated in the optimal order for alpha-beta pruning.
+
+### Answer 
+
+![image](https://github.com/nvinayvarma189/test/blob/master/images/tictactoe.jpg)

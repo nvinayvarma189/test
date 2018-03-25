@@ -260,3 +260,33 @@ By a similar calculation, the entropy for testing 'eyes' is (5/8)(0.971) + (3/8)
 Thus 'hair' gives us the maximum information gain.
 
 Since the 'blond' branch for hair still contains a mixed population, we would apply the whole procedure recursively on the population remaining in the 'blond' branch. Note that we now only need to test 'height' and 'eyes' since the 'hair' attribute has already been used.
+
+## N-Queens Question
+
+Consider the following state for the 8-queens problem:
+
+![image](https://github.com/nvinayvarma189/test/blob/master/images/nqueens.jpg)
+
+## (a)
+
+is this a solution?
+
+### Answer
+
+No, the queens on columns 2 and 5 are attacking each other.
+
+## (b)
+
+what is the value of h?
+
+### Answer
+
+There is only one violation, so h=1.
+
+## (c)
+
+explain why Hill-climbing with Min Conflicts would get stuck in this state, but Simulated Annealing may be able to "escape" and eventually find a solution.
+
+### Answer
+
+For each column, moving the queen on that column (while keeping the other queens in place) would result in an increase to h. Therefore, any such move will be rejected by Hill-climbing. Simulated Annealing, however, can accept such a move with probability exp(-(h1-h0)/T), thus bumping the system out of this local optimum and allowing it to continue the search for a global optimum.

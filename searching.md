@@ -43,7 +43,7 @@ Describe a search space in which Breadth-First Search performs much worse than D
 ### Answer
 A search problem where there exist many solutions at a fairly deep level, such that DFS will find a solution more or less as soon as it gets to that depth for the first time. For example, imagine you are shipwrecked in the middle of a lake and you need to find a path to the shoreline, with a series of small steps either up, down, left or right. DFS will find a path quickly, whereas BFS will spend a lot of time exploring all paths shorter than the radius of the lake.
 
-![image](https://github.com/nvinayvarma189/test/blob/master/wk03lake.jpg)
+![image](https://github.com/nvinayvarma189/test/blob/master/images/space.jpg)
 
 ### (c) (add)
 Describe a search space in which Depth-First Search performs much worse than Breadth-First Search.
@@ -116,6 +116,6 @@ Keeping in mind that the goal state is:
   
 Trace the A*Search algorithm using the Total Manhattan Distance heuristic, to find the shortest path from the initial state shown above, to the goal state.
 
-![image](yolo)
+![image](https://github.com/nvinayvarma189/test/blob/master/images/8queens.jpg)
 
 Note: The algorithm begins by exploring the left branch which, according to the heuristic, seems the most promising. After a few steps the heuristic for the left branch starts to exceed that of middle branch, so exploration shifts to the middle branch, where the optimal solution is ultimately found.

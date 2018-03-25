@@ -25,8 +25,8 @@ are talking with a human that they can be quite easily fooled.
 
 
 ## Exercise 1.4 ##
-Suppose we extend Evans's ANALOGY program so that it can score 200 on a standard IQ
-test. Would we then have a program more intelligent than a human? Explain
+**Suppose we extend Evans's ANALOGY program so that it can score 200 on a standard IQ
+test. Would we then have a program more intelligent than a human? Explain**
 
 ### Solution ###
 No. Intelligence is the skill of generating and applying accurate predictive models of the world
@@ -66,16 +66,16 @@ j. Yes
 
 
 ## Exercise 1.11 ##
-"Surely computers cannot be intelligent—they can only do what their programmers tell
-them." Is the latter statement true, and does it imply the former?
+**"Surely computers cannot be intelligent—they can only do what their programmers tell
+them." Is the latter statement true, and does it imply the former?**
 
 ### Solution ###
 Yes, No. It just needs to be programmed in a flexible way that allows for internal decisions to alter internal functions
 
 
 ## Exercise 1.12 ##
-"Surely animals cannot be intelligent—they can only do what their genes tell them." Is
-the latter statement true, and does it imply the former?
+**"Surely animals cannot be intelligent—they can only do what their genes tell them." Is
+the latter statement true, and does it imply the former?**
 
 ### Solution ###
 Yes, No. The brain operates in a flexible way allowing for the process described above

@@ -67,7 +67,7 @@ Uniform Cost Search reduces to Breadth First Search when all edges have the same
 ### (b)
 Breadth First Search, Depth First Search and Uniform Cost Search are special cases of best-first search.
 
-###Answer
+### Answer
 best-first search reduces to Breadth-First Search when f(n) = number of edges from start node to n, to UCS when f(n) = g(n);
 it can be reduced to DFS by, for example, setting f(n) = -g(n) (thus forcing deep nodes on the current branch to be searched before shallow nodes on other branches).
 

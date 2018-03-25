@@ -97,15 +97,23 @@ h'(n) = [w/(2-w)]h(n) ≤ h(n)
 When w > 1 it is not guaranteed to be optimal (however, it might work very well in practice, for some problems).
 
 **8-Puzzle problem**
+
 Consider the following arrangement of tiles in the 8-puzzle:
+
   1	2	3
+  
   8	5		
+  
   4	7	6
+  
 Keeping in mind that the goal state is:
 
   1	2	3
+  
   4	5	6
+  
   7	8		
+  
 Trace the A*Search algorithm using the Total Manhattan Distance heuristic, to find the shortest path from the initial state shown above, to the goal state.
 
 ![image](yolo)

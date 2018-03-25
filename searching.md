@@ -1,6 +1,7 @@
 Romania map search
 
 ###Some definitions:###
+
 **State space:** set of cities on Romania Map
 Successor function: s(x) is the set of cities adjacent to x on the map
 
@@ -25,9 +26,10 @@ Successor function: s(x) is the set of cities adjacent to x on the map
 **(DFS with reverse alphabetical order)** = Arad, Zerind, Oradea, Sibiu, Rimnicu Vilcea, Pitest, Craiova, Dobreta, Mehadia, Lugoj, Timisoara, Bucharest.
 
 ##Question##
+
 **3.18 (3rd edn)**
 
-###(a)###
+###(a)###</br>
 Describe a search space in which Iterative Deepening Search performs much worse than          Depth-First Search.
 
 ###Answer###
@@ -41,7 +43,7 @@ Describe a search space in which Breadth-First Search performs much worse than D
 ###Answer###
 A search problem where there exist many solutions at a fairly deep level, such that DFS will find a solution more or less as soon as it gets to that depth for the first time. For example, imagine you are shipwrecked in the middle of a lake and you need to find a path to the shoreline, with a series of small steps either up, down, left or right. DFS will find a path quickly, whereas BFS will spend a lot of time exploring all paths shorter than the radius of the lake.
 
-![image](/home/roronoa/Desktop/aimacode/Mainexercises/wk03lake.jpg)
+![image](https://github.com/nvinayvarma189/test/blob/master/wk03lake.jpg)
 
 ###(c)###
 Describe a search space in which Depth-First Search performs much worse than Breadth-First Search.

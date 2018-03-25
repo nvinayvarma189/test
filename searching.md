@@ -95,3 +95,19 @@ It is guaranteed to be optimal when 0 ≤ w ≤ 1, because it is equivalent to A
 h'(n) = [w/(2-w)]h(n) ≤ h(n)
 
 When w > 1 it is not guaranteed to be optimal (however, it might work very well in practice, for some problems).
+
+**8-Puzzle problem**
+Consider the following arrangement of tiles in the 8-puzzle:
+  1	2	3
+  8	5		
+  4	7	6
+Keeping in mind that the goal state is:
+
+  1	2	3
+  4	5	6
+  7	8		
+Trace the A*Search algorithm using the Total Manhattan Distance heuristic, to find the shortest path from the initial state shown above, to the goal state.
+
+![image](yolo)
+
+Note: The algorithm begins by exploring the left branch which, according to the heuristic, seems the most promising. After a few steps the heuristic for the left branch starts to exceed that of middle branch, so exploration shifts to the middle branch, where the optimal solution is ultimately found.

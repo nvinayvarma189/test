@@ -200,7 +200,7 @@ The database is essentially a gigantic lookup table, whose values can be generat
 **13.8 (3rd edn)**
 Given the full joint distribution shown below
 
-![image](https://github.com/nvinayvarma189/test/blob/master/images/table.jpg)
+![image](https://github.com/nvinayvarma189/test/blob/master/images/table.png)
 
 calculate the following:
 

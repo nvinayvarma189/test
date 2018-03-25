@@ -1,6 +1,6 @@
 Romania map search
 
-###Some definitions:###
+###Some definitions:
 
 **State space:** set of cities on Romania Map
 Successor function: s(x) is the set of cities adjacent to x on the map
@@ -25,61 +25,61 @@ Successor function: s(x) is the set of cities adjacent to x on the map
 
 **(DFS with reverse alphabetical order)** = Arad, Zerind, Oradea, Sibiu, Rimnicu Vilcea, Pitest, Craiova, Dobreta, Mehadia, Lugoj, Timisoara, Bucharest.
 
-##Question##
+##Question
 
 **3.18 (3rd edn)**
 
-###(a)###</br>
+###(a)
 Describe a search space in which Iterative Deepening Search performs much worse than          Depth-First Search.
 
-###Answer###
+###Answer
 This will be true in search spaces with very low branching factor. As an extreme example, consider a problem with a branching factor of 1 at every move, and a solution at depth n.   Depth-First Search will take exactly n expansions to find a solution, while Iterative Deepening Search will take O(n2).
 
 **3.18 (2nd edn)**
 
-###(b)###
+###(b)
 Describe a search space in which Breadth-First Search performs much worse than Depth-First Search.
 
-###Answer###
+###Answer
 A search problem where there exist many solutions at a fairly deep level, such that DFS will find a solution more or less as soon as it gets to that depth for the first time. For example, imagine you are shipwrecked in the middle of a lake and you need to find a path to the shoreline, with a series of small steps either up, down, left or right. DFS will find a path quickly, whereas BFS will spend a lot of time exploring all paths shorter than the radius of the lake.
 
 ![image](https://github.com/nvinayvarma189/test/blob/master/wk03lake.jpg)
 
-###(c)###
+###(c)
 Describe a search space in which Depth-First Search performs much worse than Breadth-First Search.
 
-###Answer###
+###Answer
 A search problem where the search depth is large or even unlimited, but a solution can be found at a very shallow depth. BFS will find the shallow solution quickly while DFS will get "lost" in the first path it explores.
 
-##Question##
+##Question
 
 **3.21 (3rd edn)**
 
 **Prove each of the following statements:**
 
-###(a)###
+###(a)
 
 Breadth First Search is a special case of Uniform Cost Search
 
-###Answer###
+###Answer
 Uniform Cost Search reduces to Breadth First Search when all edges have the same cost.
 
-###(b)###
+###(b)
 Breadth First Search, Depth First Search and Uniform Cost Search are special cases of best-first search.
 
-###Answer###
+###Answer
 best-first search reduces to Breadth-First Search when f(n) = number of edges from start node to n, to UCS when f(n) = g(n);
 it can be reduced to DFS by, for example, setting f(n) = -g(n) (thus forcing deep nodes on the current branch to be searched before shallow nodes on other branches).
 
-###(c)###
+###(c)
 
 Uniform Cost Search is a special case of A*Search
 
-###Answer###
+###Answer
 A*Search reduces to UCS when the heuristic function is zero everywhere, i.e. h(n) = 0 for all n;
 this heuristic is clearly admissible since it always (grossly!) underestimates the distance remaining to reach the goal.
 
-##Question##
+##Question
 **3.25 (3rd edn)**
 
 The **heuristic path algorithm** is a best-first search in which the objective function is
@@ -88,7 +88,7 @@ f(n) = (2-w)g(n) + wh(n)
 For what values of w is this algorithm complete? For what values of w is it optimal, assuming h() is admissible?
 What kind of search does this perform when w=0? when w=1? when w=2?
 
-###Answer###
+###Answer
 This algorithm reduces to Uniform Cost Search when w=0, to A*Search when w=1 and to Greedy Search when w=2.
 It is guaranteed to be optimal when 0 ≤ w ≤ 1, because it is equivalent to A*Search using the heuristic
 

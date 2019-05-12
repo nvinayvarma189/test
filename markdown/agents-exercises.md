@@ -1,5 +1,5 @@
 
-# 2. Intelligent Agents
+# 2. Intelligent Agents    
 
 **2.1** Suppose that the performance measure is concerned with just the first
 $T$ time steps of the environment and ignores everything thereafter.
